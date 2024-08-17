@@ -19,7 +19,7 @@ const LoginInScreen = () => {
     navigation.navigate('Main');
   };
   const CreteAccount = () => {
-    navigation.navigate('home');
+    navigation.navigate('Register');
   };
 
   const [email, setEmail] = useState('');
